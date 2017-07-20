@@ -2,10 +2,14 @@ package test.pivotal.pal.tracker;
 
 import io.pivotal.pal.tracker.WelcomeController;
 import org.junit.Test;
+import org.springframework.beans.factory.annotation.Value;
+
+import java.sql.SQLOutput;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
 public class WelcomeControllerTest {
+
 
     @Test
     public void itSaysHello() throws Exception {
